@@ -18,7 +18,12 @@ function NavigationBar() {
       <Container>
         <Link style={{ fontSize: "1.5rem" }} href="/">
           <a className="navbar-brand">
-            <Image src="/ERlogo.svg" width={35} height={35} />
+            <Image
+              src="/ERlogo.svg"
+              width={35}
+              height={35}
+              alt="Er Brand Logo"
+            />
             <strong className="brand">ER Expert Consultants LLP</strong>
           </a>
         </Link>

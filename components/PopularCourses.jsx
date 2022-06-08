@@ -25,6 +25,8 @@ export default function PopularCourses() {
         x: -1000,
       });
     }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inView]);
 
   return (
