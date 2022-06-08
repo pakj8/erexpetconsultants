@@ -79,7 +79,7 @@ function About() {
       </motion.h3>
 
       <motion.div animate={thirdAnimations} className="col-lg-6">
-        <Image src="/about2.jpg" width={300} height={350} />
+        <Image src="/about2.jpg" width={300} height={350} alt="About-ER" />
       </motion.div>
       <motion.div
         animate={secondAnimations}
@@ -125,7 +125,7 @@ function About() {
         style={{ marginTop: "150px" }}
         className="col-lg-6 mt-5"
       >
-        <Image src="/about1.jpg" width={300} height={350} />
+        <Image src="/about1.jpg" width={300} height={350} alt="About-ER" />
       </motion.div>
     </motion.div>
   );

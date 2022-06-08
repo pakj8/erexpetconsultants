@@ -7,6 +7,10 @@ import React from "react";
 import CounterUp from "./CouterUp";
 
 function History() {
+  const text = `ER Expert Consultants continues to be one of India's leading consulting
+  firms having counselled lacs of clients and assisted thousands reach
+  their dream destination.`;
+
   return (
     <div style={{ margin: 0 }} className="row history test-image">
       <h1
@@ -24,12 +28,10 @@ function History() {
           fontSize: "20px",
         }}
       >
-        ER Expert Consultants continues to be one of India's leading consulting
-        firms having counselled lacs of clients and assisted thousands reach
-        their dream destination.
+        {text}
       </p>
       <div className="col-lg-3 col-md-6  mt-4">
-        #<CounterUp start={0} end={1} text="No. 1 Company" />
+        <CounterUp start={0} end={1} text="No. 1 Company" />
       </div>
       <div className="col-lg-3 col-md-6 mt-4">
         <CounterUp start={0} end={10000} text="Application Experience" />

@@ -25,7 +25,7 @@ export default function PopularCourses() {
         x: -1000,
       });
     }
-  });
+  }, [inView]);
 
   return (
     <motion.div

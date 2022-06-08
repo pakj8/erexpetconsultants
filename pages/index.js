@@ -49,6 +49,7 @@ export default function Home() {
             src="/bufferlogo.png"
             width={200}
             height={250}
+            alt="Er Buffer Logo"
           />
           <BeatLoader
             color={"#548CA8"}

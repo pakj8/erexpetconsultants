@@ -23,7 +23,7 @@ function NewCardContainer() {
         x: -1000,
       });
     }
-  });
+  }, [inView]);
 
   return (
     <motion.div
