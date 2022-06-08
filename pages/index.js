@@ -2,8 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import TopContainer from "../components/TopContainer";
 import Navbar from "../components/NavigationBar";
-import MiddleContainer from "../components/MiddleContainer";
-import BottomContainer from "../components/BottomContainer";
+
 import About from "../components/About";
 import NewCardContainer from "../components/NewCardContainer";
 import History from "../components/History";
@@ -65,11 +64,9 @@ export default function Home() {
           <ServiceWeProvide />
           <About />
           <ChooseUs />
-          {/* <MiddleContainer /> */}
           <PopularCourses />
           <OtherServices />
           <NewCardContainer />
-          {/* <BottomContainer /> */}
           <History />
           <Faq />
           <Consultation />
