@@ -1,0 +1,48 @@
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
+
+function ChooseUsCard(props) {
+  const [isOpen, setOpen] = useState(false);
+
+  return (
+    <motion.div
+      transition={{ duration: 1, delay: 10, bounce: 0.4 }}
+      onClick={() => setOpen(!isOpen)}
+      className="chooseUsCard card border-info"
+      style={{
+        width: "18rem",
+        color: "black",
+        borderRadius: "1rem",
+        boxShadow: "0px 5px 10px rgba(0,0,0,0.5)",
+      }}
+    >
+      <motion.div
+        layout="position"
+        style={{ marginTop: "4%" }}
+        className="justify-content-center"
+      >
+        <FontAwesomeIcon icon={props.icons} className="fontAwesome" />
+      </motion.div>
+
+      <motion.div className="text-center card-body">
+        <div className="card-title">
+          <motion.h4 layout="position" className="card-title">
+            {props.title}
+          </motion.h4>{" "}
+          {isOpen && (
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="card-text"
+            >
+              {props.text}
+            </motion.p>
+          )}
+        </div>
+      </motion.div>
+    </motion.div>
+  );
+}
+
+export default ChooseUsCard;
