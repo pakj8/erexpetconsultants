@@ -12,6 +12,7 @@ function NewCard(props) {
         width={350}
         height={520}
         alt="immigration"
+        priority
       />
 
       <button className="btn btn-secondary cardbtn">Enroll</button>

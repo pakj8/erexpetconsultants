@@ -6,7 +6,6 @@ import Navbar from "../components/NavigationBar";
 import About from "../components/About";
 import NewCardContainer from "../components/NewCardContainer";
 import History from "../components/History";
-import Testimonials from "../components/Testimonials";
 import Faq from "../components/Faq";
 import Consultation from "../components/Consultation";
 import Footer from "../components/Footer";
@@ -16,7 +15,6 @@ import ChooseUs from "../components/ChooseUs";
 import PopularCourses from "../components/PopularCourses";
 import BeatLoader from "react-spinners/BeatLoader";
 import { useEffect, useState } from "react";
-import Maintainence from "../components/Maintenence";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
@@ -70,7 +68,6 @@ export default function Home() {
           <History />
           <Faq />
           <Consultation />
-          <Maintainence />
           <Footer />
         </div>
       )}

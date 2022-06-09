@@ -196,6 +196,7 @@ export default function PopularCourses() {
             className="popular-Course"
             width={300}
             height={400}
+            priority
           />
         </motion.div>
       </div>

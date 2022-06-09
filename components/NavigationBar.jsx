@@ -31,15 +31,28 @@ function NavigationBar() {
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav style={{ fontSize: "1rem" }} className="d-flex ms-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Study Abroad" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#">Study USA</NavDropdown.Item>
-              <NavDropdown.Item href="#">Study UK</NavDropdown.Item>
-              <NavDropdown.Item href="#">Study Canada</NavDropdown.Item>
-              <NavDropdown.Item href="#">Study Australia</NavDropdown.Item>
-              <NavDropdown.Item href="#">Study New Zealand</NavDropdown.Item>
-              <NavDropdown.Item href="#">Study Singapore</NavDropdown.Item>
-              <NavDropdown.Item href="#">Study Europe</NavDropdown.Item>
+              <NavDropdown.Item href="/maintainence">
+                Study USA
+              </NavDropdown.Item>
+
+              <NavDropdown.Item href="/Maintainence">Study UK</NavDropdown.Item>
+              <NavDropdown.Item href="/Maintainence">
+                Study Canada
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/Maintainence">
+                Study Australia
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/Maintainence">
+                Study New Zealand
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/Maintainence">
+                Study Singapore
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/Maintainence">
+                Study Europe
+              </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Work Permits" id="collasible-nav-dropdown">
