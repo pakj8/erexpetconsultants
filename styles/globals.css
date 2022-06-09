@@ -419,3 +419,13 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.hourGlass {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(369deg);
+  }
+}

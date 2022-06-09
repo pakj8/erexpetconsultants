@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 function ChooseUsCard(props) {
   const [isOpen, setOpen] = useState(false);
@@ -22,7 +23,12 @@ function ChooseUsCard(props) {
         style={{ marginTop: "4%" }}
         className="justify-content-center"
       >
-        <FontAwesomeIcon icon={props.icons} className="fontAwesome" />
+        <Image
+          src={props.image}
+          width={35}
+          height={35}
+          alt="ER Choose Us Logos"
+        />{" "}
       </motion.div>
 
       <motion.div className="text-center card-body">

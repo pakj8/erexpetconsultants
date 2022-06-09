@@ -71,22 +71,22 @@ function ServiceWeProvide() {
       <div style={{ color: "black" }} className="weOfferCard container">
         <motion.div animate={secondAnimations} className="row row-cols-auto">
           <div className="col-lg-4 col-md-6 titleColor">
-            <Card icons={faFlagUsa} text="Student Visa" />
+            <Card image="/visa1.png" text="Student Visa" />
           </div>
           <div className="col-lg-4 col-md-6 titleColor">
-            <Card icons={faPassport} text="Immigration" />
+            <Card image="/passport.png" text="Immigration" />
           </div>
           <div className="col-lg-4 col-md-6 titleColor">
-            <Card icons={faPlaneLock} text="Visitor Visa" />
+            <Card image="/departure.png" text="Visitor Visa" />
           </div>
           <div className="col-lg-4 col-md-6 titleColor">
-            <Card icons={faDollarSign} text="Education Loan" />
+            <Card image="/personal.png" text="Education Loan" />
           </div>
           <div className="col-lg-4 col-md-6 titleColor">
-            <Card icons={faMoneyCheckDollar} text="Investor Visa" />
+            <Card image="/boarding-pass.png" text="Investor Visa" />
           </div>
           <div className="col-lg-4 col-md-6 titleColor">
-            <Card icons={faCheckCircle} text="E-Visa" />
+            <Card image="/check.png" text="E-Visa" />
           </div>
         </motion.div>
       </div>

@@ -68,55 +68,55 @@ export default function PopularCourses() {
 
         <div style={{ paddingLeft: "70px" }} className="col-lg-3 text-start">
           <h6 className="mt-3" style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              color="black"
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2 titleColor">
               Business Studies
             </a>
           </h6>
           <h6 className="mt-3" style={{ marginBottom: "10px", color: "white" }}>
-            <FontAwesomeIcon
-              color="black"
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2">
               Engineering
             </a>
           </h6>
           <h6 className="mt-3" style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
-              color="black"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2">
               Computer Science
             </a>
           </h6>
           <h6 className="mt-3" style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
-              color="black"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a className="mt-3" style={{ color: "white" }}>
               Information Technology
             </a>
           </h6>
           <h6 className="mt-3" style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
-              color="black"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2">
               Nursing
@@ -128,55 +128,55 @@ export default function PopularCourses() {
           className="col-lg-3 mt-3 text-start"
         >
           <h6 style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
-              color="black"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2">
               Medicine
             </a>
           </h6>
           <h6 className="mt-3" style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
-              color="black"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2">
               Hospitality and Tourism
             </a>
           </h6>
           <h6 className="mt-3" style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
-              color="black"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2">
               Law
             </a>
           </h6>
           <h6 className="mt-3" style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
-              color="black"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2">
               Accounting
             </a>
           </h6>
           <h6 className="mt-3" style={{ marginBottom: "10px" }}>
-            <FontAwesomeIcon
-              className="rounded-circle flex-shrink-6"
-              icon={faCheckCircle}
-              size="lg"
-              color="black"
+            <Image
+              src="/check.png"
+              width={30}
+              height={30}
+              alt="Popular Course Logo"
             />
             <a style={{ color: "white" }} className="m-2">
               Fashion Design

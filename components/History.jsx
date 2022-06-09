@@ -1,10 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import VisibilitySensor from "react-visibility-sensor";
-import CounterUp from "./CouterUp";
 import { faHourglassEnd } from "@fortawesome/free-solid-svg-icons";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 function History() {
   const text = `ER Expert Consultants continues to be one of India's leading consulting
@@ -38,10 +37,12 @@ function History() {
           className="card text-center"
         >
           <div className="card-header">
-            <FontAwesomeIcon
-              icon={faHourglassEnd}
-              spin
-              className="fontAwesome"
+            <Image
+              src="/hour-glass.png"
+              width={35}
+              height={35}
+              alt="hour-glass"
+              className="hourGlass"
             />
           </div>
           <div className="card-body">
@@ -58,10 +59,12 @@ function History() {
           className="card text-center"
         >
           <div className="card-header">
-            <FontAwesomeIcon
-              icon={faHourglassEnd}
-              spin
-              className="fontAwesome"
+            <Image
+              src="/hour-glass.png"
+              width={35}
+              height={35}
+              alt="hour-glass"
+              className="hourGlass"
             />
           </div>
           <div className="card-body">
@@ -78,10 +81,12 @@ function History() {
           className="card text-center"
         >
           <div className="card-header">
-            <FontAwesomeIcon
-              icon={faHourglassEnd}
-              spin
-              className="fontAwesome"
+            <Image
+              src="/hour-glass.png"
+              width={35}
+              height={35}
+              alt="hour-glass"
+              className="hourGlass"
             />
           </div>
           <div className="card-body">
@@ -98,10 +103,12 @@ function History() {
           className="card text-center"
         >
           <div className="card-header">
-            <FontAwesomeIcon
-              icon={faHourglassEnd}
-              spin
-              className="fontAwesome"
+            <Image
+              src="/hour-glass.png"
+              width={35}
+              height={35}
+              alt="hour-glass"
+              className="hourGlass"
             />
           </div>
           <div className="card-body">
